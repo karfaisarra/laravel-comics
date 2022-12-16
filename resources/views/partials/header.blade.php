@@ -17,7 +17,7 @@
                     <ul class="list-unstyled d-flex gap-3 justify-content-center py-2">
                         <li><a href="#" class="{{Route::currentRouteName() ==='characters'? 'active' : ''}}">Characters</a></li>
                         <li><a href="{{route('comics')}}" class="{{Route::currentRouteName() ==='comics'? 'active' : ''}}">Comics</a></li>
-                        <li><a href="#" class="{{Route::currentRouteName() ==='movies'? 'active' : ''}}">Movies</a></li>
+                        <li><a href="{{route('movies')}}" class="{{Route::currentRouteName() ==='movies'? 'active' : ''}}">Movies</a></li>
                         <li><a href="#" class="{{Route::currentRouteName() ==='tv'? 'active' : ''}}">Tv</a></li>
                         <li><a href="#" class="{{Route::currentRouteName() ==='games'? 'active' : ''}}">Games</a></li>
                         <li><a href="#" class="{{Route::currentRouteName() ===''? 'active' : ''}}">Collectibles</a></li>
