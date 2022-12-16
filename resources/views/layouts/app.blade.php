@@ -16,9 +16,9 @@
 <body>
 
     @include('partials.header')
+    @include('partials.jumbotron')
     <main class="py-4">
         @yield('content')
-        @include('partials.jumbotron')
     </main>
     @include('partials.footer')
 
