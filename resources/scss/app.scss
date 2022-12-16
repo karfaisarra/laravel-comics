@@ -45,3 +45,55 @@ header {
     width: 100%;
     height: 500px;
 }
+
+.comics {
+    margin-top: -1.5rem;
+}
+
+footer {
+    .top {
+        background-image: url('../img/footer-bg.jpg');
+        height: 400px;
+
+        a {
+            text-decoration: none;
+            color: gray;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+
+    .bottom {
+        background-color: #303030;
+
+        .my_btn {
+            margin: 2.5rem 0;
+
+            a {
+                text-decoration: none;
+                color: white;
+                border: 2px solid #0282F9;
+                padding: 0.75rem;
+
+                &:hover {
+                    background-color: #0282F9;
+                }
+            }
+        }
+
+        .col {
+            span {
+                margin: 0 1rem;
+                color: #0282F9;
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            img {
+                margin-right: 1.5rem;
+            }
+        }
+    }
+}
