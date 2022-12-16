@@ -15,13 +15,13 @@
                 </div>
                 <div class="menu d-flex justify-content-between gap-4">
                     <ul class="list-unstyled d-flex gap-3 justify-content-center py-2">
-                        <li><a href="#" class="{{Route::currentRouteName() ==='characters'? 'active' : ''}}">Characters</a></li>
+                        <li><a href="#" class="{{Route::currentRouteName() ==='characters'? 'active' : ''}} active">Characters</a></li>
                         <li><a href="#" class="{{Route::currentRouteName() ==='comics'? 'active' : ''}}">Comics</a></li>
                         <li><a href="#" class="{{Route::currentRouteName() ==='movies'? 'active' : ''}}">Movies</a></li>
                         <li><a href="#" class="{{Route::currentRouteName() ==='tv'? 'active' : ''}}">Tv</a></li>
                         <li><a href="#" class="{{Route::currentRouteName() ==='games'? 'active' : ''}}">Games</a></li>
-                        <li><a href="#" class="{{Route::currentRouteName() ==='collectibles'? 'active' : ''}}">Collectibles</a></li>
-                        <li><a href="#" class="{{Route::currentRouteName() ==='videos'? 'active' : ''}}">Videos</a></li>
+                        <li><a href="#" class="{{Route::currentRouteName() ===''? 'active' : ''}}">Collectibles</a></li>
+                        <li><a href="#" class="{{Route::currentRouteName() ==='videos'? 'collectiblesactive' : ''}}">Videos</a></li>
                         <li><a href="#" class="{{Route::currentRouteName() ==='fans'? 'active' : ''}}">Fans</a></li>
                         <li><a href="#" class="{{Route::currentRouteName() ==='news'? 'active' : ''}}">News</a></li>
                         <li><a href="#" class="{{Route::currentRouteName() ==='shop'? 'active' : ''}}">Shop</a></li>
